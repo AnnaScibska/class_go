@@ -2,7 +2,7 @@
 Une interface qui ne déclare aucune méthode est valide. C'est l'interface vide.  
 
 ```golang
-	var somthing interface{}
+	type somthing interface{}
 	somthing = 5
 	fmt.Println(somthing)
 ```
